@@ -116,10 +116,10 @@ export default function Speakers() {
           priority
         />
         <div className="absolute inset-0 bg-black/60 flex flex-col justify-center items-center text-white text-center">
-          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">
+          <h1 className="text-4xl md:text-5xl font-poppins tracking-tight text-[#6F7CAC]">
             Our Speakers
           </h1>
-          <p className="text-xl max-w-2xl mt-4 text-gray-200 font-light">
+          <p className="text-xl max-w-2xl mt-4 text-gray-200 font-poppins text-[#AFB0C4]">
             Learn from industry leaders and innovators shaping tomorrow.
           </p>
         </div>

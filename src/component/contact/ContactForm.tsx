@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
 const ContactPage = () => {
   return (
@@ -12,25 +12,29 @@ const ContactPage = () => {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-4xl font-bold text-[#6E7CB0] mb-4">
             Let&apos;s Connect
           </h2>
           <p className="text-lg text-gray-700 mb-6">
-            Got a question or want to work together? Fill out the form and we’ll get back to you as soon as possible.
+            Got a question or want to work together? Fill out the form and we’ll
+            get back to you as soon as possible.
           </p>
 
           <div className="space-y-4 text-gray-600">
             <div>
               <p className="font-semibold">Email:</p>
-              <p>support@example.com</p>
+              <p>nupur.verma@achromicpoint.com</p>
             </div>
             <div>
               <p className="font-semibold">Phone:</p>
-              <p>+1 (555) 123-4567</p>
+              <p>+91-8447758768</p>
             </div>
             <div>
               <p className="font-semibold">Location:</p>
-              <p>123 Main Street, New York, NY 10001</p>
+              <p>
+                F-11, First Floor, Kalkaji, New Delhi-110019 New Delhi-110019,
+                India
+              </p>
             </div>
           </div>
         </motion.div>
@@ -82,7 +86,7 @@ const ContactPage = () => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             type="submit"
-            className="w-full bg-blue-600 text-white font-semibold py-3 rounded-md hover:bg-blue-700 transition"
+            className="w-full bg-[#CB2F36] text-white font-semibold py-3 rounded-md hover:bg-red-500 transition"
           >
             Send Message
           </motion.button>

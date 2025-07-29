@@ -43,7 +43,7 @@ const Navbar = () => {
               <Link
                 key={idx}
                 href={item.href}
-                className="text-[#C73B3D] hover:text-[#6D7CAB] font-semibold text-sm lg:text-base transition"
+                className="relative text-[#6E7CB2] hover:text-[#B0B1C5] font-semibold text-sm lg:text-base transition duration-300 before:content-[''] before:absolute before:-bottom-1 before:left-0 before:h-[2px] before:w-0 hover:before:w-full before:bg-[#6E7CB2] before:transition-all before:duration-300"
               >
                 {item.name}
               </Link>

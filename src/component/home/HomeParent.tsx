@@ -9,22 +9,28 @@ import WhyChooseSection from "@/@/component/home/Whychoose";
 import TestimonialSlider from "./Testinomial";
 import PartnersSection from "./Partners";
 import StatCounter from "@/@/component/about/CountUp";
+import GlobalOfficeSection from "../contact/GlobalOffice";
+import IntroSection from "./Intro";
 
 const HomeParent = () => {
   return (
     <>
-      <div className="p-0 m-0 leading-none pt-10">
+      <div className=" pt-10">
         {" "}
         {/* ⛔ if using space-y, control it */}
-        <HeroSection />
-        <FeatureCards />
+        <main className="p-0 m-0 leading-none ">
+          <HeroSection />
+        </main>
         <PartnersSection />
+        <FeatureCards />
         <ConferenceSection />
         <StatCounter />
         <WhyChooseSection />
         <TrainingCoursesSection />
+        {/* <IntroSection /> */}
         <TestimonialSlider />
         <FAQSection />
+        <GlobalOfficeSection />
         {/* <SevenCardsSection/> */}
       </div>
     </>

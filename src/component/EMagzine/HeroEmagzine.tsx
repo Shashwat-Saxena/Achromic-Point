@@ -6,7 +6,7 @@ import logo from '@/@/assets/eMagazine.jpg';
 
 const EMagazineHero = () => {
   return (
-    <section className="w-full bg-[#e4e2dd] px-4 py-6">
+    <section className="w-full bg-[#e4e2dd] px-4 py-6 pt-20">
       <div className="max-w-7xl mx-auto">
         <Image
           src={logo}

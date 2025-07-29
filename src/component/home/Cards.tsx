@@ -33,7 +33,7 @@ const cardData = [
 
 const FeatureCards = () => {
   return (
-    <section className="bg-[#6B79B4] py-16 px-4">
+    <section className="bg-[#6B79B4] py-16 px-4 mt-0">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
         {cardData.map((item, index) => (
           <motion.div

@@ -40,7 +40,7 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="relative w-full min-h-screen max-h-[100vh] overflow-hidden">
+    <section className="relative w-full min-h-screen max-h-[100vh] overflow-hidden ">
       {/* Background Slider */}
       <Slider {...settings}>
         {slides.map((slide, index) => (

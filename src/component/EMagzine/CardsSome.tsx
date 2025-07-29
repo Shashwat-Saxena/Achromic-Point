@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import { BookOpen, Download } from 'lucide-react';
 
 const issues = [
   { number: '01', month: 'Apr', year: '2020' },
@@ -23,23 +24,28 @@ const issues = [
 
 const EMagazineCards = () => {
   return (
-    <section className="w-full bg-white py-12 px-4 sm:px-8 md:px-12 lg:px-24">
-      <div className="max-w-7xl mx-auto grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+    <section className="w-full bg-gradient-to-br from-gray-100 to-white py-12 px-4 sm:px-8 md:px-12 lg:px-24">
+      <div className="max-w-7xl mx-auto grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {issues.map((issue) => (
           <div
             key={issue.number}
-            className="rounded-xl shadow-md bg-gradient-to-br from-white to-gray-100 hover:shadow-2xl transition-shadow duration-300 p-6 flex flex-col justify-between text-center group hover:scale-105 transform ease-in-out duration-300"
+            className="group relative rounded-2xl p-6 bg-white/10 backdrop-blur-md border border-white/30 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-[1.03] flex flex-col justify-between"
           >
-            <div>
-              <h3 className="text-lg font-bold text-gray-900 mb-2">
-                ISSUE#{issue.number}
+            <div className="absolute -top-5 left-1/2 transform -translate-x-1/2 bg-white text-red-600 rounded-full p-3 shadow-lg">
+              <BookOpen className="w-6 h-6" />
+            </div>
+
+            <div className="pt-8 text-center">
+              <h3 className="text-xl font-semibold text-gray-800 group-hover:text-red-600">
+                ISSUE #{issue.number}
               </h3>
-              <div className="w-10 mx-auto border-t-2 border-gray-400 mb-2"></div>
-              <p className="text-indigo-500 font-medium text-base">
+              <p className="text-gray-500 mt-1">
                 {issue.month} {issue.year}
               </p>
             </div>
-            <button className="mt-6 bg-red-600 text-white px-4 py-2 rounded-full font-semibold text-sm hover:bg-red-700 transition-colors">
+
+            <button className="mt-6 inline-flex items-center justify-center gap-2 bg-red-600 text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-red-700 transition">
+              <Download className="w-4 h-4" />
               Free - Download
             </button>
           </div>

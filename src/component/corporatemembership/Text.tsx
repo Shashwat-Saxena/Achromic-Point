@@ -11,8 +11,8 @@ const benefits = [
 
 const CorporateMembershipSection = () => {
   return (
-    <section className="relative w-full bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] py-20 px-6 sm:px-10 lg:px-24 overflow-hidden">
-      <div className="max-w-5xl mx-auto text-center">
+    <section className=" relative w-full bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] py-20 px-6 sm:px-10 lg:px-24 overflow-hidden">
+      <div className="max-w-5xl mx-auto text-center mb-12">
         <h2 className="text-3xl sm:text-4xl font-extrabold text-[#1e293b] mb-4">
           Corporate Membership <span className="text-[#BE3632]">2025</span>
         </h2>
