@@ -34,5 +34,9 @@ body {
 body, html {
   overflow-y: scroll; /* Always reserve space for scrollbar */
 }
+/* always off dark mode */
+:root {
+  color-scheme: light;
+}
 
 

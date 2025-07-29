@@ -18,7 +18,7 @@ const GlobalOfficeSection = () => {
           {/* Google Map */}
           <div className="w-full lg:w-1/2 h-[300px] sm:h-[400px] lg:h-auto">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.0485413057495!2d77.25831077519273!3d28.596558375694566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3e18aa494b3%3A0x2f28e29928db6bb7!2sKalkaji%2C%20New%20Delhi%2C%20Delhi%20110019!5e0!3m2!1sen!2sin!4v1722255846644!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7014.226044384683!2d77.2515864!3d28.5416563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3dde64a38f5%3A0x1923baa4fe80157b!2sAchromic%20Point%20Consulting%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1722255846644!5m2!1sen!2sin"
               loading="lazy"
               className="w-full h-full border-0"
               allowFullScreen

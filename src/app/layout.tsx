@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "../component/header/Navbar";
 import Footer from "../component/Footer";
-import { FaPhoneAlt } from "react-icons/fa"; // ✅ import added
+import { FaPhoneAlt } from "react-icons/fa";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,8 +27,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      {/* 💡 Force light mode only */}
+      <head>
+        <meta name="color-scheme" content="light" />
+      </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white text-black`}
       >
         <Navbar />
         {children}
