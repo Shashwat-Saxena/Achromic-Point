@@ -2,8 +2,8 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import Link from "next/link";
-import { FaPhoneAlt } from "react-icons/fa";
+// import Link from "next/link";
+// import { FaPhoneAlt } from "react-icons/fa";
 import hero from "@/@/assets/web.jpg";
 import about from "@/@/assets/about.jpg"
 

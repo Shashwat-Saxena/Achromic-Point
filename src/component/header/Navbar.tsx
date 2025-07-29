@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { Menu, X, Search } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import Link from "next/link";
 import logo from "@/@/assets/apc-Logo.png";
 

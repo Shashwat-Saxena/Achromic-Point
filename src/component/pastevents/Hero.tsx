@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import herocard from "@/@/assets/herocard.jpg";
 
 const HeroSection = () => {

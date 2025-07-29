@@ -11,7 +11,8 @@ import {
   FaMapMarkerAlt,
 } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
-import logo from "@/@/assets/apc-Logo.png";
+import Image from 'next/image';
+import logo from '@/@/assets/apc-Logo.png';
 import Link from 'next/link';
 
 const Footer = () => {
@@ -20,10 +21,12 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 py-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
         {/* Logo and Social */}
         <div className="flex flex-col items-start">
-          <img
-            src={logo.src}
+          <Image
+            src={logo}
             alt="Achromic Point Logo"
-            className="w-60 mb-4 bg-white"
+            width={240}
+            height={60}
+            className="mb-4 bg-white"
           />
           <div className="flex gap-4 text-xl">
             <a href="https://www.facebook.com/AchromicPoint" target="_blank" rel="noopener noreferrer">
@@ -50,8 +53,6 @@ const Footer = () => {
           <ul className="space-y-1 text-sm">
             <li><Link href="/">Home</Link></li>
             <li><Link href="/about">About Us</Link></li>
-            {/* <li><Link href="/why-choose-us">Why Choose Us</Link></li> */}
-            {/* <li><Link href="/testimonials">Testimonials</Link></li> */}
             <li><Link href="/termsconditions">Terms and Conditions</Link></li>
             <li><Link href="/contact">Contact Us</Link></li>
             <li><Link href="/privacypolicy">Privacy Policy</Link></li>
@@ -64,26 +65,13 @@ const Footer = () => {
           <ul className="space-y-1 text-sm">
             <li><Link href="/agenda">Agenda</Link></li>
             <li><Link href="/speakers">Speakers</Link></li>
-            <li><Link href="/enterprise">Enterprise </Link></li>
+            <li><Link href="/enterprise">Enterprise</Link></li>
             <li><Link href="/pastevents">Past Events</Link></li>
             <li><Link href="/corporate">Corporate Membership</Link></li>
             <li><Link href="/emagazine">eMagazine</Link></li>
             <li><Link href="/upcomingevents">Upcoming Events</Link></li>
           </ul>
         </div>
-
-        {/* Training & Courses */}
-        {/* <div>
-          <h3 className="text-lg font-semibold mb-2 border-b border-red-500 w-fit">Training & Courses</h3>
-          <ul className="space-y-1 text-sm">
-            <li>Legal</li>
-            <li>Compliance</li>
-            <li>Risk</li>
-            <li>Accounts</li>
-            <li>Finance</li>
-            <li>Tax</li>
-          </ul>
-        </div> */}
 
         {/* Contact Us */}
         <div>

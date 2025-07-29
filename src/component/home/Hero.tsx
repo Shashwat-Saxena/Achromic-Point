@@ -1,9 +1,9 @@
 'use client';
 
 import { useState } from 'react';
-import { motion } from 'framer-motion';
+// import { motion } from 'framer-motion';
 import Image from 'next/image';
-import Link from 'next/link';
+// import Link from 'next/link';
 import Slider from 'react-slick';
 
 import hero1 from '@/@/assets/herohome1.jpg';
@@ -25,7 +25,7 @@ const slides = [
 ];
 
 const HeroSection = () => {
-  const [activeSlide, setActiveSlide] = useState(0);
+  const [, setActiveSlide] = useState(0);
 
   const settings = {
     dots: false,

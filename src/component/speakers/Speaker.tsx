@@ -88,7 +88,7 @@ async function getAllSpeakers() {
 
 export default function Speakers() {
   const [speakers, setSpeakers] = useState<Speaker[]>([]);
-  const [loading, setLoading] = useState(true);
+  const [, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchSpeakers = async () => {

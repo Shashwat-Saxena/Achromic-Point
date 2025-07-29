@@ -13,7 +13,7 @@ const ContactPage = () => {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Let's Connect
+            Let&apos;s Connect
           </h2>
           <p className="text-lg text-gray-700 mb-6">
             Got a question or want to work together? Fill out the form and we’ll get back to you as soon as possible.

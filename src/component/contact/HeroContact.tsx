@@ -9,7 +9,7 @@ const ContactSection = () => {
     <section className="bg-[#002B31] text-white py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-4xl font-bold mb-4">Get in touch<span className="text-orange-500">.</span></h2>
-        <p className="text-lg mb-12">Want to get in touch? We'd love to hear from you. Here's how you can reach us.</p>
+        <p className="text-lg mb-12">Want to get in touch? We&apos;d love to hear from you. Here&apos;s how you can reach us.</p>
 
         <div className="grid md:grid-cols-2 gap-8">
           {/* Sales Card */}
